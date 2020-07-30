@@ -16,5 +16,5 @@ app.get("/Login/", function(req, res) {
 })
 
 app.listen(3000, function(req, res) {
-    console.log("WUHU GOOOOOOOO!!!!! ");
+    console.log("Server Started");
 })
