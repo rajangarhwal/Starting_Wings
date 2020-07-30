@@ -15,6 +15,6 @@ app.get("/Login/", function(req, res) {
     res.render("Login");
 })
 
-app.listen(3000, function(req, res) {
+app.listen(process.env.PORT, process.env.IP, function(req, res) {
     console.log("Server Started");
 })
